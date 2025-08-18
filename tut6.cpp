@@ -28,7 +28,7 @@ int main() {
 
     // Comparison operators
     cout<<"following are the comaprison operator in cpp"<<endl;
-    cout<<"The value of a == b is "<<(a==b)<<endl;
+    cout<<"The value of a == b is "<<(a==b)<<endl;   // endl; --> add new line
     cout<<"The value of a != b is "<<(a!=b)<<endl;
     cout<<"The value of a >= b is "<<(a>=b)<<endl;
     cout<<"The value of a <= b is "<<(a<=b)<<endl;
@@ -36,5 +36,9 @@ int main() {
     cout<<"The value of a < b is "<<(a<b)<<endl;
 
     // logical operators
+    cout<<"following are the logical operator in cpp"<<endl;
+    cout<<"The value of this logical and operator ((a==b) && (a<b)) is:"<<((a==b) && (a<b))<<endl;
+    cout<<"The value of this logical or operator ((a==b) || (a<b)) is:"<<((a==b) || (a<b))<<endl;
+    cout<<"The value of this logical not operator (!(a==b) is:"<<((a==b))<<endl;
     return 0;
 }
