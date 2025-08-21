@@ -24,24 +24,33 @@ int main(){
         //i++;
     //}
 
-    // example of infinite loop 
+    // example of infinite  for loop 
     //for (int i =1; 34 <= 40; i++)
     //{
     //cout<<i<<endl;
     //}
 
-    /*sybtax for while loop in cpp
+    /*syntax for while loop in cpp
     while (condition);
     {
         c++ statement;
     }
     */
-     // printing 1 to 40 using while loop
-     int i=1;
-     while(i<=40){
+    // printing 1 to 40 using while loop
+    //int i=1;
+    //while(i<=40){
+        //cout<<i<<endl;
+        //i++;
+    //}
+    
+    // example of infinite  while loop
+    int i = 1;
+    while (true)
+    {
         cout<<i<<endl;
         i++;
-     }
+    }
+    
     return 0;
 
 }
