@@ -31,11 +31,12 @@ int main(){
     //}
 
     /*syntax for while loop in cpp
-    while (condition);
+    while (condition)
     {
         c++ statement;
     }
     */
+
     // printing 1 to 40 using while loop
     //int i=1;
     //while(i<=40){
@@ -51,6 +52,16 @@ int main(){
         i++;
     }
     
+    /*syntax for do- while loop in cpp 
+    do 
+    {
+    c++ statement;
+    }while condition;
+    */
+     
+    // printing 1 to 40 using do-while loop
+    
+
     return 0;
 
 }
