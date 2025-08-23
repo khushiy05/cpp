@@ -45,12 +45,12 @@ int main(){
     //}
     
     // example of infinite  while loop
-    int i = 1;
-    while (true)
-    {
-        cout<<i<<endl;
-        i++;
-    }
+    //int i = 1;
+   //while (true)
+    //{
+        //cout<<i<<endl;
+        //i++;
+    //}
     
     /*syntax for do- while loop in cpp 
     do 
@@ -60,7 +60,11 @@ int main(){
     */
      
     // printing 1 to 40 using do-while loop
-    
+    int i=1;
+    do{
+        cout<<i<<endl;
+        i++;
+    }while(i<=40);
 
     return 0;
 
